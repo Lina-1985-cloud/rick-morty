@@ -1,3 +1,4 @@
+import '../index.css'
 export default function Character(props) {
     
     // Desestructurando las props
@@ -13,7 +14,7 @@ export default function Character(props) {
     <div className="characteres">
         <h1>Personajes</h1>
         <span className="back-home" onClick={resetCharacters}>Volver al home</span>
-        <div className="container-characteres">
+        <div className="container-characters">
             {characters.map((character, index)=>(
                 <div className="character-container" key={index}>
                     <div>

@@ -1,5 +1,6 @@
 import imageRickMorty from './img/rick-morty.png'
 import './App.css';
+import'./index.css'
 import { useState } from 'react';
 import Character from './components/Character';
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className='title'>Rick &Morty</h1>
+        <h1 className='title'>Rick & Morty</h1>
         {characters ?(
           <Character characters = {characters} setCharacters={setCharacters}/>
 
