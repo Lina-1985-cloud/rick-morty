@@ -3,6 +3,7 @@ export default function Character(props) {
     // Desestructurando las props
     const { characters, setCharacters } = props
 
+    //Función para resetear y volver al Home
     const resetCharacters = () =>{
         setCharacters(null)
     }
